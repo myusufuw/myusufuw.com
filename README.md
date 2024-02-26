@@ -1,5 +1,9 @@
 # Muhammad Yusuf's Portfolio Website / myusufuw.com
 
+<p align="center">
+<img src="./assets/hero.svg" width="850">
+</p>
+
 Welcome to my personal portfolio website repository! This website showcases my skills, projects, and experiences as a Fullstack Web Developer.
 
 ## Table of Contents
@@ -17,7 +21,7 @@ This website serves as a platform to display my professional work, skills, and a
 
 ## Preview
 
-![Design Preview](./assets//figma-design-preview.png)
+![Design Preview](./assets/figma-design-preview.jpg)
 
 ## Features
 
