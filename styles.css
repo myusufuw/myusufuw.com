@@ -135,6 +135,39 @@ main {
   cursor: pointer;
 }
 
+/* SKILSS */
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+.skilss {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.skills-img-container {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+}
+
+.skills-img-slider {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  animation: 30s slide infinite linear;
+}
+
+.skills-img-slider img {
+  margin: 0 12px;
+}
+
 /* MOBILE RESPONSIVE */
 @media only screen and (max-width: 640px) {
   .navbar-menu li a {
