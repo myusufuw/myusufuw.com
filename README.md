@@ -48,3 +48,4 @@ This website serves as a platform to display my professional work, skills, and a
 - [Figma 🎨](https://www.figma.com/file/6E4ZIQAwG488wM0Zm67EU8/Transporta-v4?node-id=35%3A19463&mode=dev)
 - [Github 🗃️](https://github.com/myusufuw)
 - [Linkedin 🙋‍♂️](https://www.linkedin.com/in/myusufuw/)
+- [myusufuw.com ✨](https://myusufuw.com)
