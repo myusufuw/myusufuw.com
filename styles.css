@@ -116,6 +116,15 @@ main {
   display: none;
 }
 
+.about-me-link {
+  text-decoration: none;
+  color: #51b2ed;
+}
+
+.about-me-link:hover {
+  text-decoration: underline;
+}
+
 /* PROJECTS */
 .projects {
   display: flex;
@@ -233,7 +242,7 @@ main {
   margin-bottom: -5px;
 }
 
-/* FOOETR */
+/* FOOTER */
 .footer {
   display: flex;
   padding: 32px 24px 0px 24px;
