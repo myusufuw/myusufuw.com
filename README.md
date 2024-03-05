@@ -34,7 +34,9 @@ This website serves as a platform to display my professional work, skills, and a
 
 - HTML5
 - CSS3
+- Javascript
 - VS Code
+- [AOS Js](https://michalsnik.github.io/aos/)
 
 ## References
 

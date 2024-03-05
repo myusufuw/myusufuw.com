@@ -59,7 +59,6 @@ nav {
 .navbar-menu li a:hover {
   text-decoration: none;
   color: #a3a3a3;
-  margin-right: 24px;
   transition: 0.5s;
 }
 
@@ -250,8 +249,17 @@ main {
 
 /* MOBILE RESPONSIVE */
 @media only screen and (max-width: 640px) {
+  main {
+    overflow-x: hidden;
+  }
+
   .navbar-menu li a {
     margin-right: 12px;
+  }
+
+  .hero img {
+    height: 220px;
+    object-fit: cover;
   }
 
   .collage-container {
