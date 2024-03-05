@@ -37,6 +37,7 @@ This website serves as a platform to display my professional work, skills, and a
 - Javascript
 - VS Code
 - [AOS Js](https://michalsnik.github.io/aos/)
+- [Vercel](https://vercel.com/)
 
 ## References
 
