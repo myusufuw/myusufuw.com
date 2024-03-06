@@ -119,10 +119,15 @@ main {
 .about-me-link {
   text-decoration: none;
   color: #51b2ed;
+  background: linear-gradient(to right, #51b2ed, #51b2ed);
+  background-size: 0 2px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
 }
 
 .about-me-link:hover {
-  text-decoration: underline;
+  background-size: 100% 2px;
 }
 
 /* PROJECTS */
