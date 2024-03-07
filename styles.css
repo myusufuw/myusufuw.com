@@ -1,9 +1,17 @@
+@font-face {
+  font-family: 'Gheist';
+  src: url('/font/Geist-Light.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Gheist', sans-serif;
   color: #fff;
+  line-height: 1.75;
 }
 
 body {
