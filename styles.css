@@ -153,6 +153,7 @@ main {
   display: flex;
   flex-direction: column;
   margin-bottom: 16px;
+  text-decoration: none;
 }
 
 .projects-item p {
@@ -161,6 +162,7 @@ main {
 
 .projects-item img {
   cursor: pointer;
+  border-radius: 8px;
 }
 
 .rocket-icon {
