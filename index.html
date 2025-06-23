@@ -10,7 +10,7 @@
     />
 
     <!-- TITLE AND DESCRIPTION -->
-    <title>Muhammad Yusuf Untung Wahyudi</title>
+    <title>Muhammad Yusuf Untung Wahyudi - Frontend Web Developer</title>
     <meta
       name="description"
       content="Muhammad Yusuf Untung Wahyudi's personal website portfolio."
@@ -19,6 +19,33 @@
     <!-- CSS STYLES -->
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- FACEBOOK META TAGS -->
+    <meta property="og:url" content="https://myusufuw.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Muhammad Yusuf Untung Wahyudi" />
+    <meta
+      property="og:description"
+      content="Muhammad Yusuf Untung Wahyudi's personal website portfolio."
+    />
+    <meta
+      property="og:image"
+      content="https://myusufuw.com/assets/og-banner.png"
+    />
+
+    <!-- TWITTER META TAGS -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content="myusufuw.com" />
+    <meta property="twitter:url" content="https://myusufuw.com/" />
+    <meta name="twitter:title" content="Muhammad Yusuf Untung Wahyudi" />
+    <meta
+      name="twitter:description"
+      content="Muhammad Yusuf Untung Wahyudi's personal website portfolio."
+    />
+    <meta
+      name="twitter:image"
+      content="https://myusufuw.com/assets/og-banner.png"
+    />
   </head>
 
   <body>
@@ -831,6 +858,7 @@
     </main>
   </body>
 
+  <!-- AOS JS SCRIPT -->
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init()
@@ -838,5 +866,21 @@
     const currentYear = new Date().getFullYear()
 
     footerYearElement.textContent = currentYear
+  </script>
+
+  <!-- JSON LD -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Muhammad Yusuf Untung Wahyudi",
+      "url": "https://myusufuw.com",
+      "jobTitle": "Frontend Developer",
+      "image": "https://myusufuw.com/assets/og-banner.png",
+      "sameAs": [
+        "https://github.com/myusufuw",
+        "https://linkedin.com/in/myusufuw"
+      ]
+    }
   </script>
 </html>
