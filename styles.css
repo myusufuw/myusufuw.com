@@ -163,10 +163,44 @@ main {
 .projects-item img {
   cursor: pointer;
   border-radius: 8px;
+  object-fit: cover;
 }
 
 .rocket-icon {
   margin-bottom: -4px;
+}
+
+.company-projects-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+  text-decoration: none;
+}
+
+.company-projects-item img {
+  cursor: pointer;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.company-projects-item .title {
+  margin-bottom: 8px;
+  text-decoration: none;
+  background: linear-gradient(to right, #ffffff, #51b2ed);
+  background-size: 0 2px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+  max-width: fit-content;
+}
+
+.company-projects-item .title:hover {
+  background-size: 100% 2px;
+}
+
+.company-projects-item .description {
+  margin-top: 8px;
+  cursor: default;
 }
 
 /* SKILSS */
