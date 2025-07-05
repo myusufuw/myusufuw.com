@@ -157,7 +157,7 @@ main {
 }
 
 .projects-item p {
-  margin-top: 8px;
+  margin-bottom: 4px;
 }
 
 .projects-item img {
@@ -166,6 +166,24 @@ main {
   object-fit: cover;
 }
 
+.projects-item .btn-github {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.227);
+  cursor: pointer;
+  padding: 6px;
+  margin-top: 8px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.4s ease-in-out;
+}
+
+.projects-item .btn-github:hover {
+  border-color: cyan;
+  color: cyan;
+}
 .rocket-icon {
   margin-bottom: -4px;
 }
