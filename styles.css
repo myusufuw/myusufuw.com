@@ -154,10 +154,23 @@ main {
   flex-direction: column;
   margin-bottom: 16px;
   text-decoration: none;
+  min-height: 400px;
+  justify-content: space-between;
 }
 
-.projects-item p {
+.projects-item .title {
   margin-bottom: 4px;
+  font-weight: 600;
+}
+
+.projects-item .description {
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+.projects-item .image-container {
+  display: flex;
+  flex-direction: column;
 }
 
 .projects-item img {
